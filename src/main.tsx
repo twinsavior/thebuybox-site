@@ -7,7 +7,7 @@ import Survey from './pages/Survey.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/thebuybox-site">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/survey" element={<Survey />} />
